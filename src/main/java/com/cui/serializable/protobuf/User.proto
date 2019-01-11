@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package com.cui.serializable.protobuf;
+
+option java_package = "com.cui.serializable.protobuf";
+option java_outer_classname = "UserProto";
+
+message User {
+	string name = 1;
+	int32 age = 2;
+	string hobby = 3;
+	
+}
